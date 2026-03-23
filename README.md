@@ -18,13 +18,14 @@ Grab `CrimsonSaveEditor.exe` from the release. Single file, no installation need
 
 ## How To Use
 
-1. **Close the game** (the editor works on save files directly)
-2. Run `CrimsonSaveEditor.exe`
-3. Go to **File > Open Save File** or use **Tools > Auto-Find Save**
+1. It's recommended that you **Close the game** HOWEVER it is not required it still works.
+    (the editor works on save files directly)
+3. Run `CrimsonSaveEditor.exe`
+4. Go to **File > Open Save File** or use **Tools > Auto-Find Save**
    - Saves are typically at: `%LOCALAPPDATA%\Pearl Abyss\CD\save\<steamid>\slot0\save.save`
-4. Make your edits
-5. **File > Save** to write changes (a backup is created automatically)
-6. Launch the game and load your save
+5. Make your edits
+6. **File > Save** to write changes (a backup is created automatically)
+7. Launch the game and load your save
 
 ## Tabs
 
