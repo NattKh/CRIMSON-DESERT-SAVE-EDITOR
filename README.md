@@ -185,6 +185,29 @@ The editor handles the full save file crypto pipeline:
 
 ## Changelog
 
+### v2.5.3
+
+**New: Quest Editor (Tools > Quest Editor)**
+- Fix bugged quests that are stuck and blocking progression
+- Opens in a separate window — main editor stays fast
+- Shows all quests and missions from your save with English display names
+- Search by quest name (e.g. "Wrestling Match", "Where Rumors Gather")
+- **Mark Quest Completed** — skip past broken quests. Game auto-advances to next quest in chain.
+- **Reset to In Progress** — undo a completion
+- Built-in Save button with backup warning
+- 633 quests and 5,450 missions with localized English names from game data
+
+**New: Quest Database Tab**
+- Browse all 898 quests + 5,882 missions from game data
+- Search by key, internal name, or display name
+- Find quest keys for any quest in the game, even ones you haven't encountered
+
+**Other**
+- Center status banner shows loading progress prominently above tabs
+- Improved PARC external PO fixup — prevents false sentinel matches that corrupted FieldSaveData
+- Re-Fog Map button (inverse of Reveal Map)
+- Version 2.5.3
+
 ### v2.5.2
 
 **New Features**
