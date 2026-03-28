@@ -22,7 +22,9 @@ Grab `CrimsonSaveEditor.exe` from the release. Single file, no installation need
 - **Equipment Sets** — Create, share, and apply stat buff presets as community sets via GitHub
 - **Item Packs** — Download and apply curated item collections from the community (including dye packs and Dragon packs)
 - **Community Mapping** — Help map every item in the game by scanning your saves
-- **GPatch** — Game file patches: mount death respawn timer, storage expansion, item effect swap
+- **Community Mod Loader (NEW)** — Load community JSON mods alongside Save Editor patches. Drop `.json` files into `SEModLoad/Json/`, enable/disable with checkboxes, automatic conflict detection
+- **ASI Plugin Manager (NEW)** — Install, enable/disable ASI plugins from `SEModLoad/ASI/` directly in the editor
+- **GPatch** — Game file patches: mount death respawn timer, storage expansion (700 slots)
 - **PABGB Browser** — Browse any game data file (Dev mode)
 - **Give Item** — Pick any item from the database and a donor item to sacrifice
 - **Backup/Restore** — Automatic backup before every save, pristine backup support
@@ -90,8 +92,9 @@ Right-click items to add them to **Equipment Sets** — reusable buff presets yo
 ### GPatch (Game Patches)
 Apply game file patches that survive save changes:
 - **Mount Death Respawn (1s)** — Sets all 32 mount/vehicle death respawn timers to 1 second (vanilla: ~90 min). Note: Dragon summon duration/cooldown is hardcoded and cannot be modified.
-- **Storage Expansion (900)** — Expand warehouse, bank, and camp storage to 900 slots. Does NOT modify player inventory (which causes bugs).
-- **Item Effect Swap** — Swap consumable use-effects between items by patching effect hashes in iteminfo.pabgb. Change what happens when you use an item in-game.
+- **Storage Expansion (700)** — Expand warehouse, bank, and camp storage to 700 slots. Does NOT modify player inventory (which causes bugs).
+- **Community Mod Loader** — Load community JSON mods from `SEModLoad/Json/` alongside SE patches. Automatic PABGB-to-PAZ offset conversion via PAMT index. Conflict detection between all mods.
+- **ASI Plugin Manager** — Install/uninstall ASI plugins from `SEModLoad/ASI/`. Enable/disable with checkboxes. Auto-detects ASI loader DLL.
 
 ### Item Packs
 Download community item collections from GitHub. Create your own packs to share loadouts with others.
@@ -185,14 +188,26 @@ The editor handles the full save file crypto pipeline:
 
 ## Changelog
 
-### v2.5.4
+### v2.5.5
 
-**New: Mod Compatibility — Export Patches (GPatch tab)**
-- **Export as JSON Patch** — Export your game file edits (ItemBuffs, MaxStacks, Storage, etc.) as a JSON file compatible with Nexus JSON Mod Manager. Tiny file, per-byte changes.
-- **Export as CDUMM ZIP** — Export as a ZIP for CrimsonDesert Ultimate Mods Manager. Drag into CDUMM to import. Takes 5-10 minutes (large PAZ file).
-- Exports save to `Exports/` folder next to the exe
-- Verified correct: JSON patches validated against game files after export
-- Makes our edits play nice with other mods instead of overwriting them
+**New: Community Mod Loader (GPatch tab)**
+- Load community JSON mods alongside Save Editor patches — drop `.json` files into `Crimson Desert/bin64/SEModLoad/Json/`
+- Automatic PABGB-to-PAZ offset conversion via PAMT index — no manual setup needed
+- Enable/disable mods with checkboxes, conflict detection between all mods
+- Compatible with mods from CD JSON Mod Manager, Nexus, and other community tools
+
+**New: ASI Plugin Manager (GPatch tab)**
+- Install, enable/disable ASI plugins from `SEModLoad/ASI/`
+- Auto-detects ASI loader DLL (winmm.dll, version.dll, etc.)
+- One-click install with companion `.ini` config files
+
+**Changed**
+- Storage expansion reduced from 900 to 700 (safer for stability)
+- Item count spinboxes increased to 999,999 (silver and high-value items display correctly)
+- ItemBuffs table columns auto-size to content (Name, Tier, Type all readable)
+- Removed: Export as JSON/CDUMM ZIP (replaced by Community Mod Loader), Dragon menu items
+
+### v2.5.4
 
 **New: Unlock All Knowledge (Abyss Gates tab)**
 - Injects ALL 5,500+ knowledge entries from game data
@@ -295,7 +310,7 @@ The editor handles the full save file crypto pipeline:
 
 **New Features**
 - **Max Stacks built-in** — Checkbox "Also apply Max Stacks" (99/999/9999) in ItemBuffs. Applied together with buffs in one click. Replaces FatStacks mod.
-- **Storage Expansion (900)** — GPatch: warehouse, bank, camp storage to 900 slots. Structural parsing, survives updates. Player inventory untouched.
+- **Storage Expansion (700)** — GPatch: warehouse, bank, camp storage to 700 slots. Structural parsing, survives updates. Player inventory untouched.
 - **My Inventory button** — ItemBuffs: instantly list your save items that exist in iteminfo
 - **PABGB Browser** — Dev mode: browse all 118 game data files with hex dump
 - **Vendor-only donor filter** — Filter pack donors to vendor repurchase items only
@@ -321,7 +336,7 @@ The editor handles the full save file crypto pipeline:
 **New Features**
 - **ItemBuffs stat editing rewrite** — Real binary format support (flat2/flat1/rate stat types). Max values, swap stat types within same class
 - **Max Stacks built-in** — Replace FatStacks mod. Checkbox in ItemBuffs tab to set all stackable items to 99/999/9999. Applied together with buffs in one click. Survives game updates.
-- **Storage Expansion (900)** — Expand warehouse, bank, camp storage to 900 slots via GPatch. Does NOT touch player inventory (avoids loot bugs)
+- **Storage Expansion (700)** — Expand warehouse, bank, camp storage to 700 slots via GPatch. Does NOT touch player inventory (avoids loot bugs)
 - **Equipment Sets** — Create, share, and apply stat buff presets. Right-click items to add to sets. Import/Export via JSON, sync from GitHub
 - **My Inventory button** — Instantly list items from your loaded save in ItemBuffs tab
 - **Category filter on Swap tab** — Filter by All, Has Template, Equipment, Armor, Weapon, etc.
