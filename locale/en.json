@@ -1,9 +1,7 @@
 {
   "_language_name": "English",
-
   "app.title": "Crimson Desert - Save Editor",
   "app.ready": "Ready — Select a save from the sidebar or File > Open",
-
   "tab.save_editor": "Save Editor",
   "tab.game_mods": "Game Mods",
   "tab.items": "Items",
@@ -28,7 +26,6 @@
   "tab.game_data": "Game Data",
   "tab.pabgb_browser": "PABGB Browser",
   "tab.backup": "Backup/Restore",
-
   "menu.file": "File",
   "menu.edit": "Edit",
   "menu.view": "View",
@@ -47,7 +44,6 @@
   "menu.experimental": "Enable Experimental Mode",
   "menu.about": "About",
   "menu.check_update": "Check for Updates",
-
   "sidebar.save_browser": "Save Browser",
   "sidebar.home": "Home",
   "sidebar.backup": "Backup",
@@ -55,7 +51,6 @@
   "sidebar.settings": "Settings",
   "sidebar.save_btn": "SAVE EDIT TO SELECTED FILE",
   "sidebar.backup_local": "Backup to Local Folder",
-
   "sidebar.pack_browser": "Pack Browser",
   "sidebar.pack_name": "Pack name...",
   "sidebar.pack_create": "Create",
@@ -63,7 +58,6 @@
   "sidebar.pack_delete": "Delete Selected Pack",
   "sidebar.pack_refresh": "Refresh",
   "sidebar.pack_open_folder": "Open Folder",
-
   "label.game_path": "Game:",
   "label.not_set": "Not set — click Browse",
   "label.search": "Search:",
@@ -71,7 +65,6 @@
   "label.category": "Category:",
   "label.status": "Status:",
   "label.showing": "Showing",
-
   "btn.browse": "Browse",
   "btn.detect": "Detect",
   "btn.refresh": "Refresh",
@@ -81,7 +74,6 @@
   "btn.save_file": "Save File",
   "btn.yes": "Yes",
   "btn.no": "No",
-
   "merc.title": "Mercenary/Pets — View, rename, and unlock mounts/companions.",
   "merc.credits": "Credits to Tooltip for the mercenary name parser and rename engine.",
   "merc.refresh": "Refresh List",
@@ -108,7 +100,6 @@
   "merc.cleared": "Cleared name from mercenary #{index} — save with Ctrl+S",
   "merc.label_confirm": "Name all {count} mercenaries with M_<merc_no>?\n\nThis lets you identify each one in-game.\nAfter, rename the ones you want and clear the rest.",
   "merc.labeled": "Labeled {count}/{total} mercenaries — save with Ctrl+S",
-
   "mount.unlock_title": "Unlock Mounts (Experimental)",
   "mount.confirmed": "Confirmed",
   "mount.exotic": "Exotic",
@@ -119,7 +110,6 @@
   "mount.already_exists": "{name} is already in your mercenary list!",
   "mount.unlock_all_confirm": "Unlock these 5 mounts?\n\nAlready-owned mounts will be skipped.\nSave (Ctrl+S) afterward.",
   "mount.unlock_all_done": "Unlocked {count} mounts, {skipped} already owned.\n\nSave (Ctrl+S) and reload in-game.",
-
   "quest.editor_title": "Quest Editor",
   "quest.load": "Load Quests",
   "quest.mark_completed": "Mark Completed",
@@ -133,11 +123,9 @@
   "quest.col_state": "State",
   "quest.col_status": "Status",
   "quest.col_completed": "Completed",
-
   "quest_db.title": "QUEST DATABASE — All quests from game data.",
   "quest_db.info": "Search by name to find quest keys. Use Quest Editor tab to modify quest states.",
   "quest_db.mark_complete": "Mark Selected Complete",
-
   "know.title": "Knowledge",
   "know.learn_selected": "Learn Selected",
   "know.unlearn_selected": "Unlearn Selected",
@@ -151,7 +139,6 @@
   "know.not_learned": "Not Learned",
   "know.scanning": "Scanning...",
   "know.status": "{learned}/{total} learned",
-
   "pack.knowledge": "Knowledge",
   "pack.quest": "Quest",
   "pack.no_packs": "(no packs — use New Pack in sidebar)",
@@ -164,21 +151,60 @@
   "pack.inject_confirm": "Inject {count} entries from '{name}'?\n({already} already present, {new} new)",
   "pack.all_present": "All entries from '{name}' already present.",
   "pack.select_hint": "No entries selected.\n\nHow to select:\n- Click a row to select one\n- Ctrl+Click to add more\n- Shift+Click for a range",
-
   "backup.title": "Backup Save?",
   "backup.confirm": "Create a backup of your current save before writing changes?\n\nHighly recommended — you can restore from Backup/Restore tab if anything goes wrong.",
   "backup.created": "Backup created: {path}",
   "backup.local_done": "Save backed up to local folder.\n\n{path}",
   "backup.save_success": "Save file written successfully.\n{path}\n\nWARNING: It is recommended to save again in game after loading\nthe changes to have a new clean save to work with.",
-
   "ctx.mark_completed": "Mark Completed",
   "ctx.reset_progress": "Reset to In Progress",
   "ctx.reset_available": "Reset to Available",
   "ctx.learn_selected": "Learn Selected",
   "ctx.unlearn_selected": "Unlearn Selected",
   "ctx.copy_keys": "Copy Key(s)",
-
   "error.no_save": "Load a save file first.",
   "error.no_selection": "Select an entry first.",
-  "error.generic": "An error occurred: {error}"
+  "error.generic": "An error occurred: {error}",
+  "sidebar.show_icons": "Show Icons",
+  "sidebar.hide_icons": "Hide Icons",
+  "sidebar.knowledge_tab": "Knowledge Tab",
+  "sidebar.quest_editor": "Quest Editor",
+  "sidebar.item_database": "Item Database",
+  "btn.show_icons": "Show Icons",
+  "btn.hide_icons": "Hide Icons",
+  "btn.fast_inject": "Fast Inject Pack",
+  "btn.inject_pack": "Inject Pack",
+  "btn.sync_github": "Sync from GitHub",
+  "btn.reveal_map": "Reveal Map",
+  "btn.unlock_abyss": "Unlock All Abyss Gates",
+  "btn.refog_map": "Re-Fog Map",
+  "btn.auto_detect": "Auto-Detect Game Path",
+  "quest.col_type": "Type",
+  "quest.refresh": "Refresh",
+  "quest.parc_required": "PARC Expansion Required",
+  "quest.type_ok": "OK",
+  "quest.type_parc": "PARC",
+  "quest.type_mission": "Mission",
+  "quest.type_quest": "Quest",
+  "know.fast_inject": "Fast Inject Pack",
+  "know.refresh": "Refresh",
+  "know.press_enter": "press Enter for all",
+  "know.inject_complete": "Injection complete",
+  "abyss.title": "MAP & ABYSS GATES",
+  "abyss.reveal_map": "Reveal Map",
+  "abyss.unlock_gates": "Unlock All Abyss Gates",
+  "abyss.refog": "Re-Fog Map",
+  "abyss.info": "Reveal Map and Unlock Abyss Gates can be done independently. Save (Ctrl+S) and reload in-game after each action.",
+  "mount.unlock_all_exotic": "Unlock All Exotic Mounts",
+  "mount.creatures": "Creatures",
+  "mount.balloons": "Balloons",
+  "mount.boss_wild": "Boss/Wild",
+  "mount.ships": "Ships",
+  "mount.unique_horses": "Unique Horses",
+  "icons.download_title": "Download Icons",
+  "icons.download_prompt": "Download all item icons + mount portraits from GitHub?",
+  "icons.downloading": "Downloading icons from GitHub...",
+  "scope.save": "Modifies your SAVE FILE",
+  "scope.game": "Modifies GAME FILES (PAZ archives)",
+  "scope.readonly": "Read-only — no changes to files"
 }
