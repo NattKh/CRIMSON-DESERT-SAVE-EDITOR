@@ -9,8 +9,6 @@ A standalone save editor for Crimson Desert. Edit your inventory, swap equipment
 Grab `CrimsonSaveEditor.exe` from the release. Single file, no installation needed.
 
 ## Features
-
-- **PARC Insert (NEW)** — Add brand new items to your inventory without needing a donor item. Full tree verification ensures no crashes.
 - **Clone to Vendor (NEW)** — Clone any sold item into a new vendor entry. Search by name, buy it back in-game for a fully correct item. Type-for-type swap required.
 - **Inventory Editor** — View all items with names/icons, edit stack counts, batch edit, delete items
 - **Equipment Editor** — Change enchant level (0-10), endurance, sharpness, duplicate gear for swapping
@@ -21,11 +19,6 @@ Grab `CrimsonSaveEditor.exe` from the release. Single file, no installation need
 - **Max Stacks** — Increase all stackable item max stacks to 99/999/9999 (replaces FatStacks mod)
 - **Equipment Sets** — Create, share, and apply stat buff presets as community sets via GitHub
 - **Item Packs** — Download and apply curated item collections from the community (including dye packs and Dragon packs)
-- **Community Mapping** — Help map every item in the game by scanning your saves
-- **Community Mod Loader (NEW)** — Load community JSON mods alongside Save Editor patches. Drop `.json` files into `SEModLoad/Json/`, enable/disable with checkboxes, automatic conflict detection
-- **ASI Plugin Manager (NEW)** — Install, enable/disable ASI plugins from `SEModLoad/ASI/` directly in the editor
-- **GPatch** — Game file patches: mount death respawn timer, storage expansion (700 slots)
-- **PABGB Browser** — Browse any game data file (Dev mode)
 - **Give Item** — Pick any item from the database and a donor item to sacrifice
 - **Backup/Restore** — Automatic backup before every save, pristine backup support
 - **Auto-Find Saves** — Locates save files automatically (Steam, Epic, Game Pass, Linux Proton)
