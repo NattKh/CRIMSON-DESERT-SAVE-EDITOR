@@ -1,0 +1,727 @@
+{
+  "name": "Elemental Powers",
+  "type": "knowledge",
+  "count": 144,
+  "entries": [
+    {
+      "key": 1000785,
+      "name": "Knowledge_Electricity",
+      "display": "Lightning"
+    },
+    {
+      "key": 1000791,
+      "name": "Knowledge_ElectricityResistance",
+      "display": "Lightning Resistance"
+    },
+    {
+      "key": 1000798,
+      "name": "Knowledge_HpElectricityDamage",
+      "display": "HpElectricityDamage"
+    },
+    {
+      "key": 1001565,
+      "name": "Knowledge_Kliff_MpFire",
+      "display": "Flame Strike"
+    },
+    {
+      "key": 1003808,
+      "name": "Knowledge_Kliff_Earring",
+      "display": "Greymane's Earring"
+    },
+    {
+      "key": 1001567,
+      "name": "Knowledge_Kliff_MpIce",
+      "display": "Frost Mantle"
+    },
+    {
+      "key": 1001568,
+      "name": "Knowledge_Kliff_MpLightning",
+      "display": "Lightning Surge"
+    },
+    {
+      "key": 1001570,
+      "name": "Knowledge_Kliff_MpWind",
+      "display": "Storm Veil"
+    },
+    {
+      "key": 1001543,
+      "name": "Knowledge_Damian_ElementalReinforce",
+      "display": "Imbue Element"
+    },
+    {
+      "key": 1003281,
+      "name": "Knowledge_ElementalReinforce",
+      "display": "Imbue Element"
+    },
+    {
+      "key": 1001526,
+      "name": "Knowledge_Oongka_ElementalReinforce",
+      "display": "Imbue Element"
+    },
+    {
+      "key": 1001525,
+      "name": "Knowledge_Damian_ElementalReinforce_RotationBash",
+      "display": "Elemental Smiting Strike"
+    },
+    {
+      "key": 1001548,
+      "name": "Knowledge_Damian_ElementalReinforce_ChargeShot",
+      "display": "Elemental Charged Shot"
+    },
+    {
+      "key": 1001544,
+      "name": "Knowledge_Damian_ElementalReinforce_ShieldThrow",
+      "display": "Elemental Shield Toss"
+    },
+    {
+      "key": 1002101,
+      "name": "Knowledge_Damian_ElementalReinforce_SkyKick",
+      "display": "Elemental Meteor Kick"
+    },
+    {
+      "key": 1001745,
+      "name": "Knowledge_ElementalArrow",
+      "display": "Elemental Arrow"
+    },
+    {
+      "key": 1003516,
+      "name": "Knowledge_ElementalReinforce_RotationBash",
+      "display": "Elemental Turning Slash"
+    },
+    {
+      "key": 1003517,
+      "name": "Knowledge_ElementalReinforce_ChargeShot",
+      "display": "Elemental Charged Shot"
+    },
+    {
+      "key": 1003515,
+      "name": "Knowledge_ElementalReinforce_JiJeongTa",
+      "display": "Elemental Force Palm"
+    },
+    {
+      "key": 1002100,
+      "name": "Knowledge_ElementalReinforce_SkyKick",
+      "display": "Elemental Meteor Kick"
+    },
+    {
+      "key": 1001527,
+      "name": "Knowledge_Oongka_ElementalReinforce_RotationBash",
+      "display": "Elemental Quaking Fury"
+    },
+    {
+      "key": 1001528,
+      "name": "Knowledge_Oongka_ElementalReinforce_ChargeShot",
+      "display": "Elemental Charged Shot"
+    },
+    {
+      "key": 1001549,
+      "name": "Knowledge_Oongka_ElementalReinforce_CloseShot",
+      "display": "Elemental Scatter Shot"
+    },
+    {
+      "key": 1002102,
+      "name": "Knowledge_Oongka_ElementalReinforce_SkyKick",
+      "display": "Elemental Meteor Kick"
+    },
+    {
+      "key": 1004259,
+      "name": "Knowledge_Skill_Banking_I",
+      "display": "Novice Accoutant"
+    },
+    {
+      "key": 1004260,
+      "name": "Knowledge_Skill_Banking_II",
+      "display": "Skilled Accoutant"
+    },
+    {
+      "key": 1004261,
+      "name": "Knowledge_Skill_Banking_III",
+      "display": "Expert Accountant"
+    },
+    {
+      "key": 1004243,
+      "name": "Knowledge_Skill_Building_I",
+      "display": "Construction"
+    },
+    {
+      "key": 1004244,
+      "name": "Knowledge_Skill_Building_II",
+      "display": "Skilled Builder"
+    },
+    {
+      "key": 1004245,
+      "name": "Knowledge_Skill_Building_III",
+      "display": "Expert Builder"
+    },
+    {
+      "key": 1004250,
+      "name": "Knowledge_Skill_Crafting_I",
+      "display": "Crafting"
+    },
+    {
+      "key": 1004251,
+      "name": "Knowledge_Skill_Crafting_II",
+      "display": "Skilled Craftsman"
+    },
+    {
+      "key": 1004252,
+      "name": "Knowledge_Skill_Crafting_III",
+      "display": "Expert Craftsman"
+    },
+    {
+      "key": 1004237,
+      "name": "Knowledge_Skill_Drawing_I",
+      "display": "Calligraphy"
+    },
+    {
+      "key": 1004238,
+      "name": "Knowledge_Skill_Drawing_II",
+      "display": "Skilled Painter"
+    },
+    {
+      "key": 1004239,
+      "name": "Knowledge_Skill_Drawing_III",
+      "display": "Expert Painter"
+    },
+    {
+      "key": 1004246,
+      "name": "Knowledge_Skill_Engineering_I",
+      "display": "Engineering"
+    },
+    {
+      "key": 1004247,
+      "name": "Knowledge_Skill_Engineering_II",
+      "display": "Skilled Engineer"
+    },
+    {
+      "key": 1004248,
+      "name": "Knowledge_Skill_Engineering_III",
+      "display": "Expert Engineer"
+    },
+    {
+      "key": 1004213,
+      "name": "Knowledge_Skill_Farming_I",
+      "display": "Novice Farmer"
+    },
+    {
+      "key": 1004214,
+      "name": "Knowledge_Skill_Farming_II",
+      "display": "Skilled Farmer"
+    },
+    {
+      "key": 1004215,
+      "name": "Knowledge_Skill_Farming_III",
+      "display": "Expert Farmer"
+    },
+    {
+      "key": 1004231,
+      "name": "Knowledge_Skill_Fishing_I",
+      "display": "Novice Fisherman"
+    },
+    {
+      "key": 1004232,
+      "name": "Knowledge_Skill_Fishing_II",
+      "display": "Skilled Fisherman"
+    },
+    {
+      "key": 1004233,
+      "name": "Knowledge_Skill_Fishing_III",
+      "display": "Expert Fisherman"
+    },
+    {
+      "key": 1004234,
+      "name": "Knowledge_Skill_Foodprocessing_I",
+      "display": "Provisions"
+    },
+    {
+      "key": 1004235,
+      "name": "Knowledge_Skill_Foodprocessing_II",
+      "display": "Skilled Cook"
+    },
+    {
+      "key": 1004236,
+      "name": "Knowledge_Skill_Foodprocessing_III",
+      "display": "Expert Cook"
+    },
+    {
+      "key": 1004225,
+      "name": "Knowledge_Skill_Forging_I",
+      "display": "Novice Smith"
+    },
+    {
+      "key": 1004226,
+      "name": "Knowledge_Skill_Forging_II",
+      "display": "Skilled Smith"
+    },
+    {
+      "key": 1004227,
+      "name": "Knowledge_Skill_Forging_III",
+      "display": "Expert Smith"
+    },
+    {
+      "key": 1004256,
+      "name": "Knowledge_Skill_Gathering_I",
+      "display": "Novice Hunter"
+    },
+    {
+      "key": 1004257,
+      "name": "Knowledge_Skill_Gathering_II",
+      "display": "Skilled Hunter"
+    },
+    {
+      "key": 1004258,
+      "name": "Knowledge_Skill_Gathering_III",
+      "display": "Expert Hunter"
+    },
+    {
+      "key": 1004161,
+      "name": "Knowledge_SKill_HorseDoubleJump",
+      "display": "Double Jump"
+    },
+    {
+      "key": 1004156,
+      "name": "Knowledge_Skill_HorseDrift",
+      "display": "Drift (Press {Key:MoveAnalog} Left/Right + {Key:Key_Brake} while dashing)"
+    },
+    {
+      "key": 1004174,
+      "name": "Knowledge_SKill_HorseFastStart",
+      "display": "Quick Start"
+    },
+    {
+      "key": 1004172,
+      "name": "Knowledge_Skill_HorseInstantAcc",
+      "display": "Instant Acceleration ({Key:Key_Run} while drifting)"
+    },
+    {
+      "key": 1004173,
+      "name": "Knowledge_Skill_HorseInstantAcc_Combo",
+      "display": "Consecutive Instant Acceleration"
+    },
+    {
+      "key": 1004166,
+      "name": "Knowledge_SKill_HorseIntimidateLv2",
+      "display": "Intimidation"
+    },
+    {
+      "key": 1004167,
+      "name": "Knowledge_SKill_HorseIntimidateLv4",
+      "display": "Intimidation Lv4"
+    },
+    {
+      "key": 1004160,
+      "name": "Knowledge_SKill_HorseJump",
+      "display": "Leap"
+    },
+    {
+      "key": 1004165,
+      "name": "Knowledge_Skill_HorseKick",
+      "display": "Back Kick ({Key:Key_HardAttack_DownOnce})"
+    },
+    {
+      "key": 1004163,
+      "name": "Knowledge_SKill_HorseLateralMove",
+      "display": "Lateral Movement ({Key:MoveAnalog} Left/Right + {Key:Key_Brake})"
+    },
+    {
+      "key": 1004150,
+      "name": "Knowledge_Skill_HorseMoveLv1",
+      "display": "MoveLv1"
+    },
+    {
+      "key": 1004151,
+      "name": "Knowledge_Skill_HorseMoveLv2",
+      "display": "MoveLv2"
+    },
+    {
+      "key": 1004152,
+      "name": "Knowledge_Skill_HorseMoveLv3",
+      "display": "MoveLv3"
+    },
+    {
+      "key": 1004153,
+      "name": "Knowledge_Skill_HorseMoveLv4",
+      "display": "MoveLv4"
+    },
+    {
+      "key": 1004155,
+      "name": "Knowledge_Skill_HorseMoveLv5",
+      "display": "Dash (Press {Key:Key_Run} repeatedly)"
+    },
+    {
+      "key": 1004157,
+      "name": "Knowledge_Skill_HorseMoveLv5_100",
+      "display": "Sprint (Press {Key:Key_Run} repeatedly while dashing)"
+    },
+    {
+      "key": 1004175,
+      "name": "Knowledge_Skill_HorsePawStamp",
+      "display": "Front Hoof Axe Kick"
+    },
+    {
+      "key": 1004162,
+      "name": "Knowledge_SKill_HorsePowerJump",
+      "display": "High Jump"
+    },
+    {
+      "key": 1004159,
+      "name": "Knowledge_Skill_HorseRushAttack",
+      "display": "Flurry Slash (Press {Key:Key_HardAttack_DownOnce} while dashing)"
+    },
+    {
+      "key": 1004164,
+      "name": "Knowledge_SKill_HorseSit",
+      "display": "Sit"
+    },
+    {
+      "key": 1004158,
+      "name": "Knowledge_Skill_HorseStamina",
+      "display": "Stamina Checker"
+    },
+    {
+      "key": 1004169,
+      "name": "Knowledge_Skill_HorseSwimLv1",
+      "display": "Swimming II"
+    },
+    {
+      "key": 1004170,
+      "name": "Knowledge_Skill_HorseSwimLv2",
+      "display": "Swimming III"
+    },
+    {
+      "key": 1004168,
+      "name": "Knowledge_Skill_HorseSwimWait",
+      "display": "Swimming I"
+    },
+    {
+      "key": 1004149,
+      "name": "Knowledge_Skill_HorseWait",
+      "display": "Wait (Stamina per sec +30)"
+    },
+    {
+      "key": 1004171,
+      "name": "Knowledge_Skill_HorseWaterSprint",
+      "display": "Water Sprint"
+    },
+    {
+      "key": 1003272,
+      "name": "Knowledge_Skill_LearnSpot_Unknown",
+      "display": "Correction"
+    },
+    {
+      "key": 1004219,
+      "name": "Knowledge_Skill_Logging_I",
+      "display": "Novice Logger"
+    },
+    {
+      "key": 1004220,
+      "name": "Knowledge_Skill_Logging_II",
+      "display": "Skilled Logger"
+    },
+    {
+      "key": 1004221,
+      "name": "Knowledge_Skill_Logging_III",
+      "display": "Expert Logger"
+    },
+    {
+      "key": 1004222,
+      "name": "Knowledge_Skill_Mining_I",
+      "display": "Novice Miner"
+    },
+    {
+      "key": 1004223,
+      "name": "Knowledge_Skill_Mining_II",
+      "display": "Skilled Miner"
+    },
+    {
+      "key": 1004224,
+      "name": "Knowledge_Skill_Mining_III",
+      "display": "Expert Miner"
+    },
+    {
+      "key": 1004253,
+      "name": "Knowledge_Skill_Ornamenting_I",
+      "display": "Jewelcrafting"
+    },
+    {
+      "key": 1004254,
+      "name": "Knowledge_Skill_Ornamenting_II",
+      "display": "Skilled Jeweler"
+    },
+    {
+      "key": 1004255,
+      "name": "Knowledge_Skill_Ornamenting_III",
+      "display": "Expert Jeweler"
+    },
+    {
+      "key": 1004216,
+      "name": "Knowledge_Skill_Ranching_I",
+      "display": "Novice Handler"
+    },
+    {
+      "key": 1004217,
+      "name": "Knowledge_Skill_Ranching_II",
+      "display": "Skilled Handler"
+    },
+    {
+      "key": 1004218,
+      "name": "Knowledge_Skill_Ranching_III",
+      "display": "Expert Handler"
+    },
+    {
+      "key": 1004249,
+      "name": "Knowledge_Skill_Refining_I",
+      "display": "Exploration"
+    },
+    {
+      "key": 1004178,
+      "name": "Knowledge_Skill_RidingDash",
+      "display": "Riding Dash"
+    },
+    {
+      "key": 1004177,
+      "name": "Knowledge_Skill_RidingHardAttack",
+      "display": "Riding Heavy Attack (50)"
+    },
+    {
+      "key": 1004176,
+      "name": "Knowledge_Skill_RidingNorAttack",
+      "display": "Riding Basic Attack (25)"
+    },
+    {
+      "key": 1004154,
+      "name": "Knowledge_Skill_SpecialRidingMoveLv4",
+      "display": "SpecialRidingMoveLv4"
+    },
+    {
+      "key": 1004228,
+      "name": "Knowledge_Skill_Strengthening_I",
+      "display": "Novice Escort"
+    },
+    {
+      "key": 1004229,
+      "name": "Knowledge_Skill_Strengthening_II",
+      "display": "Skilled Escort"
+    },
+    {
+      "key": 1004230,
+      "name": "Knowledge_Skill_Strengthening_III",
+      "display": "Expert Escort"
+    },
+    {
+      "key": 1004262,
+      "name": "Knowledge_Skill_SuperWorker",
+      "display": "Jack of All Trades"
+    },
+    {
+      "key": 1004189,
+      "name": "Knowledge_Skill_TriStar_Attack",
+      "display": "Blackstar - Basic Attack"
+    },
+    {
+      "key": 1004193,
+      "name": "Knowledge_Skill_TriStar_Attack_Fire",
+      "display": "Blackstar - Fire Breath"
+    },
+    {
+      "key": 1004195,
+      "name": "Knowledge_Skill_TriStar_Attack_Ice",
+      "display": "Blackstar - Ice Breath"
+    },
+    {
+      "key": 1004197,
+      "name": "Knowledge_Skill_TriStar_Attack_Lightning",
+      "display": "Blackstar - Lightning Breath"
+    },
+    {
+      "key": 1004191,
+      "name": "Knowledge_Skill_TriStar_Breath",
+      "display": "Blackstar - Breath"
+    },
+    {
+      "key": 1004194,
+      "name": "Knowledge_Skill_TriStar_Breath_Fire",
+      "display": "Blackstar - Stamina Restoration Reduced (50)"
+    },
+    {
+      "key": 1004196,
+      "name": "Knowledge_Skill_TriStar_Breath_Ice",
+      "display": "Blackstar - Stamina Restoration Reduced (50)"
+    },
+    {
+      "key": 1004198,
+      "name": "Knowledge_Skill_TriStar_Breath_Lightning",
+      "display": "Blackstar - Stamina Restoration Reduced (50)"
+    },
+    {
+      "key": 1004190,
+      "name": "Knowledge_Skill_TriStar_Evade",
+      "display": "Blackstar - Evade"
+    },
+    {
+      "key": 1004199,
+      "name": "Knowledge_Skill_TriStar_MultiAttack",
+      "display": "Blackstar - Multi Attack"
+    },
+    {
+      "key": 1004192,
+      "name": "Knowledge_Skill_TriStar_StaminaRegen",
+      "display": "Blackstar - Stamina Restoration (30)"
+    },
+    {
+      "key": 1004181,
+      "name": "Knowledge_Skill_WarMachine_Cannon",
+      "display": "Warmachine Handcannon - Stamina Decrease (10)"
+    },
+    {
+      "key": 1004179,
+      "name": "Knowledge_Skill_WarMachine_Dash",
+      "display": "Warmachine Dash - Stamina Decrease (150)"
+    },
+    {
+      "key": 1004183,
+      "name": "Knowledge_Skill_WarMachine_EMP",
+      "display": "Warmachine Disruption Wave - Stamina Decrease (100)"
+    },
+    {
+      "key": 1004185,
+      "name": "Knowledge_Skill_WarMachine_FlameThrower",
+      "display": "Warmachine Flamespitter - Reduce Stamina (25)"
+    },
+    {
+      "key": 1004180,
+      "name": "Knowledge_Skill_WarMachine_Gatling",
+      "display": "Warmachine Gatling - Stamina Decrease (5)"
+    },
+    {
+      "key": 1004186,
+      "name": "Knowledge_Skill_WarMachine_Laser",
+      "display": "Warmachine Laser - Reduce Stamina (40)"
+    },
+    {
+      "key": 1004182,
+      "name": "Knowledge_Skill_WarMachine_MultiShot",
+      "display": "Warmachine Multi Shots - Stamina Decrease (30)"
+    },
+    {
+      "key": 1004184,
+      "name": "Knowledge_Skill_WarMachine_OverHeating",
+      "display": "Warmachine - Stamina Restoration Reduced (50)"
+    },
+    {
+      "key": 1004187,
+      "name": "Knowledge_Skill_WarMachine_Tongs",
+      "display": "Warmachine Claw - Stamina Decrease (25)"
+    },
+    {
+      "key": 1004188,
+      "name": "Knowledge_Skill_WarMachine_welding",
+      "display": "Warmachine Welder - Stamina Decrease (25)"
+    },
+    {
+      "key": 1004240,
+      "name": "Knowledge_Skill_Weaving_I",
+      "display": "Weaving"
+    },
+    {
+      "key": 1004241,
+      "name": "Knowledge_Skill_Weaving_II",
+      "display": "Skilled Weaver"
+    },
+    {
+      "key": 1004242,
+      "name": "Knowledge_Skill_Weaving_III",
+      "display": "Expert Weaver"
+    },
+    {
+      "key": 1004263,
+      "name": "Knowledge_Skill_Worker_Fighting_I",
+      "display": "Combat Specialist"
+    },
+    {
+      "key": 1001108,
+      "name": "Knowledge_SkillPoint",
+      "display": "Skill Point"
+    },
+    {
+      "key": 40009,
+      "name": "Knowledge_SwordShield_Combination_I",
+      "display": "Close-Quarters Skill I"
+    },
+    {
+      "key": 1002838,
+      "name": "Knowledge_UI_SkillTree",
+      "display": "Skill Tree"
+    },
+    {
+      "key": 1001096,
+      "name": "Knowledge_AbyssRuins_Del_0047",
+      "display": "Skills"
+    },
+    {
+      "key": 1001097,
+      "name": "Knowledge_AbyssRuins_Del_0048",
+      "display": "Various Combat Skills"
+    },
+    {
+      "key": 1004208,
+      "name": "Knowledge_Active_Faction_Fear_Infinite",
+      "display": "Faction Skill - Fear"
+    },
+    {
+      "key": 1004207,
+      "name": "Knowledge_Passive_Faction_Cheer",
+      "display": "Faction Skill - Cheer"
+    },
+    {
+      "key": 1004211,
+      "name": "Knowledge_Passive_Faction_Dead",
+      "display": "Faction Skill - Death"
+    },
+    {
+      "key": 1004203,
+      "name": "Knowledge_Passive_Faction_Fear",
+      "display": "Faction Skill - Fear"
+    },
+    {
+      "key": 1004204,
+      "name": "Knowledge_Passive_Faction_FearImmune",
+      "display": "Faction Skill - Fear Immunity"
+    },
+    {
+      "key": 1004205,
+      "name": "Knowledge_Passive_Faction_FearImmuneAura",
+      "display": "Faction Skill - Aura of Fear Immunity"
+    },
+    {
+      "key": 1004210,
+      "name": "Knowledge_Passive_Faction_NoEntrance",
+      "display": "Faction Skill - Unassailable"
+    },
+    {
+      "key": 1004206,
+      "name": "Knowledge_Passive_Faction_Revenge",
+      "display": "Faction Skill - Revenge"
+    },
+    {
+      "key": 1004200,
+      "name": "Knowledge_Passive_Faction_Strengthen",
+      "display": "Faction Skill - Enhance"
+    },
+    {
+      "key": 1000983,
+      "name": "Knowledge_AbyssRuins_Her_0049",
+      "display": "Kliff"
+    },
+    {
+      "key": 1000984,
+      "name": "Knowledge_AbyssRuins_Her_0050",
+      "display": "PHM_Description_Player_Kliff"
+    },
+    {
+      "key": 1,
+      "name": "Knowledge_Kliff",
+      "display": "Kliff"
+    }
+  ]
+}
